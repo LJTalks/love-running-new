@@ -1,0 +1,44 @@
+/* Color Pallette
+background-color: #e56b6f;
+background-color: #eaac8b;
+background-color: #b56576;
+background-color: #6d597a;
+background-color: #355070;
+*/
+
+
+/* Asterisk wildcard selector to override default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+/* Header */
+
+header {
+
+    background-color: #e56b6f;
+}
+
+/* Main */
+
+main {
+    background-color: #eaac8b;
+}
+
+.one {
+    background-color: #b56576;
+}
+
+
+.two {
+    background-color: #6d597a;
+}
+
+/* Footer */
+
+footer {
+    background-color: #355070;
+}
