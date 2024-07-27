@@ -35,6 +35,10 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #b56576;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 header a {
@@ -48,7 +52,6 @@ h1 {
     letter-spacing: -1px;
     font-size: 32px;
     text-align: center;
-    padding-top: .25em;
     padding-bottom: .25em;
 }
 
@@ -75,8 +78,21 @@ nav {
     box-shadow: 0 2px 2px #b56576;
     padding: 0 3rem;
     display: none;
+    top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main */
 
@@ -85,6 +101,7 @@ main {
     background-color: #fff2eb;
     /* Make Main Element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 67px;
 }
 
 
