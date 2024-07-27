@@ -6,7 +6,6 @@ background-color: #6d597a;
 background-color: #355070;
 */
 
-
 /* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
@@ -17,6 +16,8 @@ background-color: #355070;
 /* General Styles */
 
 body {
+    
+    font-family: "Playwrite AR", cursive, Roboto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,17 +28,26 @@ body {
 /* Header */
 
 header {
-
+    font-family: "Playwrite AR", cursive, Roboto;
     background-color: #e56b6f;
     color: aliceblue;
+    font-size: ;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
 }
 
 /* Main */
 
 main {
+    font-family: "Playwrite AR", cursive, Roboto;
     background-color: #fff2eb;
-/* Make Main Element take up any surplus space to push footer down */
-flex: 1 0 auto;
+    /* Make Main Element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 
@@ -55,6 +65,7 @@ flex: 1 0 auto;
 /* Footer */
 
 footer {
+    font-family: "Josefin Sans", sans-serif;
     background-color: #355070;
     color: aliceblue;
 }
