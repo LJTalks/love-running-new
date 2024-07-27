@@ -16,7 +16,7 @@ background-color: #355070;
 /* General Styles */
 
 body {
-    
+
     font-family: "Playwrite AR", cursive, Roboto;
     min-height: 100vh;
     display: flex;
@@ -34,7 +34,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px  #b56576;
+    box-shadow: 0 2px 2px #b56576;
 }
 
 header a {
@@ -48,6 +48,20 @@ h1 {
     letter-spacing: -1px;
     font-size: 32px;
     text-align: center;
+    padding-top: .25em;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li {
+margin-bottom: .5em;
+}
+
+.active {
+    border-bottom: 2px solid #355070;
 }
 
 /* Main */
